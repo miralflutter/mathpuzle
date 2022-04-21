@@ -49,7 +49,7 @@ class _menuuState extends State<menuu> {
               ),
             ],
           ),  Row(
-            children: [Text("alupoori - 20"),
+            children: [Text("alupoori - 30"),
               Checkbox(
                 onChanged: (value) {
                   setState(() {
@@ -67,6 +67,7 @@ class _menuuState extends State<menuu> {
         ],
       )),
     );
+
   }
   int a = 0;
 
@@ -85,3 +86,4 @@ class _menuuState extends State<menuu> {
     }
   }
 }
+

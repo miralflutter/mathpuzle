@@ -14,7 +14,7 @@ class _radioState extends State<radio> {
       appBar: AppBar(centerTitle: true,backgroundColor: Color(0xff5a054f),
         title: Text(
           "RESTRO BILL",
-          style: TextStyle(fontSize: 30, color: Colors.white),
+          style: TextStyle(fontSize: 32, color: Colors.white),
         ),
       ),
       body: Column(
